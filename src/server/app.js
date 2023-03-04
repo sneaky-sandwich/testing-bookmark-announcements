@@ -6,6 +6,7 @@ const logger = require("morgan");
 const apiRouter = require("./routes/api");
 
 const app = express();
+app.use(cors());
 
 app.use(logger("dev"));
 app.use(express.json());
@@ -25,10 +26,10 @@ app.get("*", (req, res) => {
   res.sendFile(path.join("../client/build/index.html"));
 });
 
-app.use(function (req, res, next) {
-   res.header("Access-Control-Allow-Origin", "*");
-   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-   next();
-})
+// app.use(function (req, res, next) {
+//    res.header("Access-Control-Allow-Origin", "*");
+//    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//    next();
+// })
 
 module.exports = app;
