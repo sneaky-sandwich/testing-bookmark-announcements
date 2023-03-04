@@ -15,13 +15,13 @@ function App() {
             setCount(count + 1);
         }, 20000);
 
-        fetch("api/fics")
+        fetch("https://bookmark-server.onrender.com/api/fics")
             .then(res => res.json())
             .then(json => setAllFics(json.fics));
-        fetch("api/webs")
+        fetch("https://bookmark-server.onrender.com/api/webs")
             .then(res => res.json())
             .then(json => setAllWebs(json.webs));
-        fetch("api/messages")
+        fetch("https://bookmark-server.onrender.com/api/messages")
             .then(res => res.json())
             .then(json => setMessages(json.messages));
         return () => clearInterval(interval);
@@ -32,7 +32,7 @@ function App() {
         const url = event.target.elements[0].value;
         event.target.elements[0].value = "";
         if(url.includes("archiveofourown.org/works/")) {
-            fetch("api/fics", {
+            fetch("https://bookmark-server.onrender.com/api/fics", {
                 method: "post",
                 headers: {
                     "url": url,
@@ -41,7 +41,7 @@ function App() {
                 .then(res => res.json())
                 .then(json => setAllFics(json.fics))
         } else if(url.includes("webtoons.com/en/")) {
-            fetch("api/webs", {
+            fetch("https://bookmark-server.onrender.com/api/webs", {
                 method: "post",
                 headers: {
                     "url": url,
