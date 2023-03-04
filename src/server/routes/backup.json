@@ -1,0 +1,64 @@
+{
+  "fics": [
+    [
+      "https://archiveofourown.org/works/45493609",
+      "ao3 notification code test",
+      "caeruleum (penthesileaaa)",
+      "original work",
+      "2/?",
+      "19",
+      "mar 04 2023",
+      "no"
+    ],
+    [
+      "https://archiveofourown.org/works/45493609",
+      "ao3 notification code test",
+      "caeruleum (penthesileaaa)",
+      "original work",
+      "2/?",
+      "19",
+      "mar 04 2023",
+      "no"
+    ]
+  ],
+  "webs": [
+    [
+      "https://www.webtoons.com/en/horror/stagtown/list?title_no=2532",
+      "stagtown",
+      "punko",
+      "horror",
+      "101",
+      "14M",
+      "feb 27 2023",
+      "no"
+    ],
+    [
+      "https://www.webtoons.com/en/romance/lore-olympus/list?title_no=1320",
+      "lore olympus",
+      "rachel smythe",
+      "romance",
+      "236",
+      "1.2B",
+      "feb 11 2023",
+      "no"
+    ]
+  ],
+  "messages": [
+    {
+      "url": "https://archiveofourown.org/works/45493609",
+      "color": "#9C1111",
+      "date": "mar 04 2023",
+      "num": "2",
+      "wtitle": "ao3 notification code test",
+      "complete": "no"
+    },
+    {
+      "url": "https://archiveofourown.org/works/45493609",
+      "color": "#9C1111",
+      "date": "mar 04 2023",
+      "num": "2",
+      "wtitle": "ao3 notification code test",
+      "complete": "no"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+body {
+    font-family: monospace;
+    color:white;
+    font-size: large;
+}
+
+.sidebar, .body, .bodydark {
+    text-align: center;
+    vertical-align:top;
+    height: auto;
+}
+
+#titlename {
+    background-color: #202225;
+    height:80px;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #2f3136;
+}
+
+/*#36393f*/
+.body {
+    background-color: white;
+    color:black;
+}
+
+.bodydark {
+    background-color: #36393f;
+}
+
+.messagetable {
+    border-collapse:collapse;
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contactsleft, .contactsright {
+    width: 100%;
+    background: rgba(0,0,0,0);
+    border-style: none;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.contactsleft:hover, .contactsright:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+.contactsleft:active, .contactsright:active {
+    background: rgba(0,0,0,0.7);
+}
+
+#enterbutton {
+    font-family: monospace;
+    color:white;
+    font-size: large;
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+}
+
+#enterbutton:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+#enterbutton:active {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.urlbuttonleft, .urlbuttonright {
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+    font-family: monospace;
+    color:white;
+    font-size: large;
+    text-align: left;
+    text-decoration: none;
+}
+
+.urlbuttonleft {
+    text-align: left;
+}
+
+.urlbuttonright {
+    text-align: right;
+}
+
+.updates {
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-width: 5px;
+    text-align: center;
+}
+
+.updateurl, .updateurldark {
+  width:100%;
+  height:100%;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.updateurldark {
+    color:white;
+}
+
+.updateurl {
+    color:black;
+}
+
+.updatetable {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.messageurl {
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+  font-family: monospace;
+  color:white;
+  font-size: large;
+  text-align: left;
+  text-decoration: none;
+}
+/*
+#9C1111 - ao3
+#00d463 - webtoons
+*/
